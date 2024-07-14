@@ -78,6 +78,10 @@ class Customer {
       );
     }
   }
+  //Code for Part Five: Full Names
+  fullName() {
+    return `${this.firstName} ${this.lastName}`;
+  }
 }
 
 module.exports = Customer;
